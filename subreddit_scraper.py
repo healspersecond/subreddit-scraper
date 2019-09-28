@@ -74,7 +74,6 @@ with open(inputs,'r') as intr:
                 sub_dict["id"] = [None]
                 sub_dict["created"] = None
                 sub_dict["description_html"] = [None]
-                #sub_dict["praw_pickle"] = [None]
                 sub_dict["subscribers"] = [None]
                 sub_dict["accounts_active"] = [None]
                 sub_dict["active_user_count"] = [None]
