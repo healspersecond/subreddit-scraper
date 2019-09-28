@@ -49,7 +49,9 @@ with open(inputs,'r') as intr:
             sub_dict["input_name"] = [line]
 
             try:
-                linesub = reddit.subreddit(line)
+                # Variable to store the subreddit name from each line in the text file
+                linesub = reddit.subreddit(line) 
+                # Variable to store the ListingGenerator from prawcore for moderators needed for this study.
                 mods = [m for m in linesub.moderator()]
                 mod_list = ",".join([m.id for m in linesub.moderator()])
                 mod_count =  len(mods)
