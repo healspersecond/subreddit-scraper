@@ -11,7 +11,7 @@ print(time.time())
 exec(open("redditauth.py").read())
 
 # Enter the path with the list you want the scraper to read from. This is using the txt file of randomized subreddit names used in the study.
-inputs = 'subnames-randomized.txt'
+inputs = 'top250subs.txt'
 
 # Enter the path you want your scraper to store the data.
 outputs = 'output.csv'
