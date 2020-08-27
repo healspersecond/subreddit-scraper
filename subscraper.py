@@ -7,7 +7,7 @@ import sys
 
 print(time.time())
 
-# Reads in and execute the source of the redditauth.py file.
+# Opens and executes the script to authenticate your account to access the API
 exec(open("redditauth.py").read())
 
 # Enter the path to the subreddit list. Make sure the subreddit names don't contain "/r/" (e.g., Politics instead of /r/Politics)
